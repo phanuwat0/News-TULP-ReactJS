@@ -1,0 +1,44 @@
+
+.container {
+    max-width: 100%;
+    margin: 0 auto;
+    background: #ffffff;
+    padding: 0 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+h1 {
+    margin-bottom: 0px;
+}
+
+.nav {
+    padding: 0;
+    width: 640px;
+    margin: 100px auto auto auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+nav a {
+    text-decoration: none;
+    color: #000000;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+
+nav div{
+    background-color:none;
+}
+nav a:hover {
+    background-color: #9fec1b;
+    color: #000;
+}

@@ -1,0 +1,93 @@
+
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+.card-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+}
+
+.card {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 2px 20px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    width: 500px;
+}
+.love {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 30px;
+  outline: none;
+  transition-duration: 0.3s;
+  color: #fff;
+}
+
+.love:hover {
+  transform: scale(1.2);
+}
+
+.love:focus {
+  transform: scale(1.2);
+}
+
+.love:active {
+  transform: scale(0.8);
+}
+
+.love.is-liked {
+  color: red;
+}
+
+.topic {
+    background-color: #ca5050;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.topic h2 {
+    margin: 0;
+}
+a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    /* เปลี่ยนสีตัวอักษรตามต้องการ */
+}
+a:hover {
+    color: red;
+    /* เปลี่ยนสีลิงก์เมื่อ hover ไป */
+}
+.card-image {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.card-image img {
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+}
+.card-content {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.card-content span {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.card-content div {
+    margin-bottom: 10px;
+}
